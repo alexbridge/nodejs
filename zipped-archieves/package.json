@@ -1,0 +1,15 @@
+{
+  "name": "zipped-archieves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dev-null": "^0.1.1",
+    "node-stream-zip": "^1.13.3"
+  }
+}
