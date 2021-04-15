@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "dev-null": "^0.1.1",
-    "node-stream-zip": "^1.13.3"
+    "node-stream-zip": "^1.13.3",
+    "node-unzip-2": "^0.2.8"
   }
 }
