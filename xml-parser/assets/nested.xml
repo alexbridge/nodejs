@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<BookStores>
+    <Date>07.04.2021</Date>
+    <Time>14:07:10</Time>
+    <Update>1</Update>
+
+    <Stores>
+        <Store id="100">
+            <Nr>100</Nr>
+            <Name>iShop</Name>
+            <ShopLangs>
+                <Lang Index="1">en</Lang>
+            </ShopLangs>
+        </Store>
+        <Store id="101">
+            <Nr>101</Nr>
+            <Name>Shop</Name>
+            <ShopLangs>
+                <Lang Index="1">en</Lang>
+            </ShopLangs>
+        </Store>
+    </Stores>
+
+    <Books>
+        <Book category="cooking">
+            <Isbn>267-14-91093</Isbn>
+            <Title lang="en">Everyday Italian</Title>
+            <Author>Giada De Laurentiis</Author>
+            <Year>2005</Year>
+            <Price>30.00</Price>
+            <Inventory>
+                <InventoryDetail Store="100" SKU="100-1">
+                    <Inv bin="2">5</Inv>
+                    <Inv bin="4">2</Inv>
+                </InventoryDetail>
+                <InventoryDetail Store="101" SKU="101-1">
+                    <Inv bin="2">3</Inv>
+                    <Inv bin="4">8</Inv>
+                </InventoryDetail>
+            </Inventory>
+        </Book>
+        <Book category="children">
+            <Isbn>267-14-9109300</Isbn>
+            <Title lang="en">Harry Potter</Title>
+            <Author>J K. Rowling</Author>
+            <Year>2005</Year>
+            <Price>29.99</Price>
+            <Inventory>
+                <InventoryDetail Store="100" SKU="100-2">
+                    <Inv bin="2">1</Inv>
+                    <Inv bin="4">0</Inv>
+                </InventoryDetail>
+            </Inventory>
+        </Book>
+    </Books>
+</BookStores>
