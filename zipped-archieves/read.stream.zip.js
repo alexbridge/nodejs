@@ -5,8 +5,8 @@ const unzip = require('node-unzip-2');
 
 function readZipEntry(readStream) {
   return new Promise(resolve => {
-    //readStream.pipe(devnull());
-    readStream.pipe(process.stdout);
+    readStream.pipe(devnull());
+    //readStream.pipe(process.stdout);
     readStream.on('end', resolve);
   })
 }
